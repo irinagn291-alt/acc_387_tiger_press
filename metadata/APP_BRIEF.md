@@ -1,4 +1,4 @@
-<!-- gf-brief source=768553ef784050eaaa8af8ecfbb6d2c33311f02c1d3c7d20f5c318ea62de8684 written=2026-11-18T14:14:51+03:00 -->
+<!-- gf-brief source=768553ef784050eaaa8af8ecfbb6d2c33311f02c1d3c7d20f5c318ea62de8684 written=2026-11-18T14:17:50+03:00 -->
 # Tiger Press
 
 ## What it is
