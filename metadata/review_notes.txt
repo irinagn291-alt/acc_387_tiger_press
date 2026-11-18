@@ -1,0 +1,5 @@
+On a fresh install, the app opens directly in the studio with Tiger mask selected, Tangerine ink and Stay inside the lines enabled. Tap or draw on the canvas. Scroll to reach the palette and controls, then change the ink and brush size. Try the line constraint, eraser, undo, redo and clear. Clear requires confirmation.
+
+Open the Sketchbook to search the 100 bundled stencils, switch between All stencils, Tigers and My artwork, and select a page to return to the studio. My artwork shows pages with active edits. To create a numbered Photo study, choose an image with Apple’s photo picker or take a photo. Camera access is requested when needed. If the camera is unavailable or access is denied, the app offers the photo picker.
+
+Use the export menu to save a PNG of the framed artwork and title to Files or Photos. Saving to Photos requests add-only permission. Artwork, photo studies and preferences are stored locally. The app’s integrations are limited to Apple’s photo picker, camera, Photos and Files. The interface is in English.

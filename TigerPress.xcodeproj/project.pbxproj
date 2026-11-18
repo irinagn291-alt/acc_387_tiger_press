@@ -1,0 +1,343 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 56;
+	objects = {
+
+
+		F4E34B08E3C2B78F3C0498E9 = {
+			isa = PBXFileReference;
+			path = TigerPressApp.swift;
+			lastKnownFileType = sourcecode.swift;
+			sourceTree = "<group>";
+		};
+		3C85938E6A8D42640611025E = {
+			isa = PBXBuildFile;
+			fileRef = F4E34B08E3C2B78F3C0498E9;
+		};
+
+
+
+
+
+
+		2575FA5416397E71C7E69D65 = {
+			isa = PBXFileReference;
+			path = ColorArtwork.swift;
+			lastKnownFileType = sourcecode.swift;
+			sourceTree = "<group>";
+		};
+		27C06DE9D3EC59C8D58C2E8E = {
+			isa = PBXBuildFile;
+			fileRef = 2575FA5416397E71C7E69D65;
+		};
+		A09E6DB0C5DCE854CD92ECB8 = {
+			isa = PBXFileReference;
+			path = Assets.xcassets;
+			lastKnownFileType = folder.assetcatalog;
+			sourceTree = "<group>";
+		};
+		C694C03ACA33A390980F083F = {
+			isa = PBXBuildFile;
+			fileRef = A09E6DB0C5DCE854CD92ECB8;
+		};
+		BD97831159D158DC22E815C8 = {
+			isa = PBXFileReference;
+			path = TigerPressTests.swift;
+			lastKnownFileType = sourcecode.swift;
+			sourceTree = "<group>";
+		};
+		6E80129AF8B5FA1C17D3B3F9 = {
+			isa = PBXBuildFile;
+			fileRef = BD97831159D158DC22E815C8;
+		};
+		6A83240ADEB70E314401B373 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				CLANG_ENABLE_MODULES = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = -Onone;
+				SWIFT_VERSION = 5.0;
+				SDKROOT = iphoneos;
+				ENABLE_TESTABILITY = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0A173EE652F3FA6E2553B763 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				CLANG_ENABLE_MODULES = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				DEBUG_INFORMATION_FORMAT = dwarf-with-dsym;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "";
+				SWIFT_OPTIMIZATION_LEVEL = -O;
+				SWIFT_VERSION = 5.0;
+				SDKROOT = iphoneos;
+				ENABLE_TESTABILITY = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4C4345289E3DB755EEBA7C65 = {
+			isa = XCConfigurationList;
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+			buildConfigurations = (
+				6A83240ADEB70E314401B373,
+				0A173EE652F3FA6E2553B763,
+			);
+		};
+		2BDF95416E3C6F7DB0AEDF25 = {
+			isa = PBXFileReference;
+			path = TigerPress.app;
+			includeInIndex = 0;
+			explicitFileType = wrapper.application;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		51DA989E7CFD8282475B11EC = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Take a picture to turn it into a coloring stencil.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Save a finished tiger print to your photo library.";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				MARKETING_VERSION = 1.0;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_CFBundleDisplayName = "Tiger Press";
+				CODE_SIGN_STYLE = Automatic;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = studio.tiger.press;
+				SUPPORTS_MACCATALYST = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = public.app-category.graphics-design;
+			};
+			name = Debug;
+		};
+		BC6B8C4FAB936FD31EA0668E = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Take a picture to turn it into a coloring stencil.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Save a finished tiger print to your photo library.";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				MARKETING_VERSION = 1.0;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_CFBundleDisplayName = "Tiger Press";
+				CODE_SIGN_STYLE = Automatic;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = studio.tiger.press;
+				SUPPORTS_MACCATALYST = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = public.app-category.graphics-design;
+			};
+			name = Release;
+		};
+		3AEE4BD87A382FB34FA57222 = {
+			isa = XCConfigurationList;
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+			buildConfigurations = (
+				51DA989E7CFD8282475B11EC,
+				BC6B8C4FAB936FD31EA0668E,
+			);
+		};
+		90ABD27ED06DB44208C6E077 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C85938E6A8D42640611025E,
+
+				27C06DE9D3EC59C8D58C2E8E,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		795966C91061C3A71F554EA6 = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = ();
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B27E013F5836561E3EAB74F = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C694C03ACA33A390980F083F,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EB2C8CBEE54076F26D01AE3 = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AEE4BD87A382FB34FA57222;
+			productReference = 2BDF95416E3C6F7DB0AEDF25;
+			productType = com.apple.product-type.application;
+			productName = TigerPress;
+			buildPhases = (
+				90ABD27ED06DB44208C6E077,
+				795966C91061C3A71F554EA6,
+				5B27E013F5836561E3EAB74F,
+			);
+			dependencies = ();
+			name = TigerPress;
+			buildRules = ();
+		};
+		C00861C1E86F3513C99ADA2C = {
+			isa = PBXFileReference;
+			path = TigerPressUITests.xctest;
+			includeInIndex = 0;
+			explicitFileType = wrapper.cfbundle;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FF954FBD504304FD621EBA00 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				SUPPORTS_MACCATALYST = NO;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_BUNDLE_IDENTIFIER = studio.tiger.press.uitests;
+				TEST_TARGET_NAME = TigerPress;
+				CURRENT_PROJECT_VERSION = 1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3EBDB100B8471389A7EBB8B2 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				SUPPORTS_MACCATALYST = NO;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_BUNDLE_IDENTIFIER = studio.tiger.press.uitests;
+				TEST_TARGET_NAME = TigerPress;
+				CURRENT_PROJECT_VERSION = 1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8AB3A7E1F35F500DADE236F8 = {
+			isa = XCConfigurationList;
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+			buildConfigurations = (
+				FF954FBD504304FD621EBA00,
+				3EBDB100B8471389A7EBB8B2,
+			);
+		};
+		1BBAFAF0610B15BE4F2534E3 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E80129AF8B5FA1C17D3B3F9,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D6F6452AB52CD15E78FA312 = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = ();
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		796BEC440D628B84DE301AF3 = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = ();
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3FA2EAF2D52FBB68223CBE6 = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39F48FD640FF667130F97D0B;
+			remoteGlobalIDString = 3EB2C8CBEE54076F26D01AE3;
+			remoteInfo = TigerPress;
+			proxyType = 1;
+		};
+		C8CF303E2FA71A594F03F435 = {
+			isa = PBXTargetDependency;
+			target = 3EB2C8CBEE54076F26D01AE3;
+			targetProxy = C3FA2EAF2D52FBB68223CBE6;
+		};
+		6FC104D23E3EA5F1D0082307 = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AB3A7E1F35F500DADE236F8;
+			productReference = C00861C1E86F3513C99ADA2C;
+			productType = com.apple.product-type.bundle.ui-testing;
+			productName = TigerPressUITests;
+			buildPhases = (
+				1BBAFAF0610B15BE4F2534E3,
+				7D6F6452AB52CD15E78FA312,
+				796BEC440D628B84DE301AF3,
+			);
+			dependencies = (
+				C8CF303E2FA71A594F03F435,
+			);
+			name = TigerPressUITests;
+			buildRules = ();
+		};
+		A44F5D73AA2E09DAFB9E596B = {
+			isa = PBXGroup;
+			name = Products;
+			children = (
+				2BDF95416E3C6F7DB0AEDF25,
+				C00861C1E86F3513C99ADA2C,
+			);
+			sourceTree = "<group>";
+		};
+		F2E9090BBD56AE8C5CF930C6 = {
+			isa = PBXGroup;
+			sourceTree = "<group>";
+			children = (
+				F4E34B08E3C2B78F3C0498E9,
+
+				2575FA5416397E71C7E69D65,
+				A09E6DB0C5DCE854CD92ECB8,
+				BD97831159D158DC22E815C8,
+				A44F5D73AA2E09DAFB9E596B,
+			);
+		};
+		39F48FD640FF667130F97D0B = {
+			isa = PBXProject;
+			buildConfigurationList = 4C4345289E3DB755EEBA7C65;
+			targets = (
+				3EB2C8CBEE54076F26D01AE3,
+				6FC104D23E3EA5F1D0082307,
+			);
+			developmentRegion = en;
+			knownRegions = (
+				en,
+				Base,
+			);
+			compatibilityVersion = "Xcode 14.0";
+			productRefGroup = A44F5D73AA2E09DAFB9E596B;
+			projectDirPath = "";
+			attributes = {
+				LastUpgradeCheck = 1600;
+				BuildIndependentTargetsInParallel = 1;
+				TargetAttributes = {
+					6FC104D23E3EA5F1D0082307 = {
+						TestTargetID = 3EB2C8CBEE54076F26D01AE3;
+					};
+				};
+			};
+			hasScannedForEncodings = 0;
+			projectRoot = "";
+			mainGroup = F2E9090BBD56AE8C5CF930C6;
+		};
+	};
+	rootObject = 39F48FD640FF667130F97D0B;
+}
